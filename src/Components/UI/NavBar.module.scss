@@ -1,0 +1,53 @@
+.NavBar {
+  height: 10vh;
+  width: 100vw;
+  background-color: rgb(36, 36, 36);
+  display: flex;
+  align-items: center;
+  // box-shadow: 0 2px 2px 2px black;
+
+  // transition: all 0.3s ease-in-out;
+  .NavBarElements {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    button {
+      background: none;
+      border: none;
+      color: white;
+      padding: 5px;
+      margin: 10px;
+      font-weight: bold;
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+}
+
+.navBarAnimation {
+  animation: fadeIn 1s forwards;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.fixed {
+  background-color: rgb(255, 189, 8);
+
+  font-family: "Gluten", sans-serif;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+  button {
+    font-family: "Gluten", sans-serif;
+  }
+}

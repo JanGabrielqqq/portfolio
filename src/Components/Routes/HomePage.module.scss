@@ -1,0 +1,87 @@
+.HomePageContainer {
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  background-color: rgb(36, 36, 36);
+  // scroll-snap-align: start;
+}
+
+.circle {
+  border-radius: 50%;
+  position: absolute;
+  height: 10px;
+  width: 10px;
+  animation: fadeInRandom 0.5s forwards;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+.Text {
+  color: white;
+  z-index: 10;
+  line-height: 1.5;
+  box-sizing: border-box;
+  position: relative;
+  h1 {
+    -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
+    line-height: 0.7em;
+    width: 18vw;
+    // text-shadow: 0 0 10px white;
+    position: absolute;
+    top: -20px;
+    left: -10px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 2s;
+  }
+  h3 {
+    color: rgb(255, 255, 255);
+    position: absolute;
+    width: 18vw;
+    top: 5px;
+    left: 22px;
+    opacity: 0;
+    animation: fadeIn 1s forwards;
+    animation-delay: 4s;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeInRandom {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.5;
+  }
+}
+
+@media (max-width: 500px) {
+  .HomePageContainer {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+  .Text {
+    h1 {
+      position: static;
+      right: -100px;
+      width: 330px;
+    }
+    h3 {
+      position: static;
+      width: 230px;
+    }
+  }
+}

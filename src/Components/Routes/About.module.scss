@@ -1,0 +1,69 @@
+.about {
+  height: 100vh;
+  width: 100vw;
+  background-image: linear-gradient(rgb(255, 189, 8), white);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  h4 {
+    position: absolute;
+    bottom: 2%;
+    color: black;
+    font-size: 13px;
+    font-family: "ABeeZee", sans-serif;
+    text-shadow: 0 0 8px black;
+  }
+  h1 {
+    color: white;
+    font-size: 50px;
+    font-family: "Gluten", sans-serif;
+    text-shadow: 0 0 8px black;
+    margin-bottom: 50px;
+    span {
+      color: rgb(255, 153, 0);
+    }
+  }
+  .aboutContent {
+    width: 60%;
+    display: flex;
+
+    // align-items: center;
+    justify-content: space-around;
+    .Education {
+      width: 250px;
+      font-family: "ABeeZee", sans-serif;
+      color: black;
+      font-size: 15px;
+
+      text-shadow: 0 0 8px black;
+
+      span {
+        color: rgb(156, 94, 0);
+      }
+    }
+  }
+}
+
+@media (max-width: 500px) {
+  .about {
+    h1 {
+      margin: 0;
+    }
+    .aboutContent {
+      width: 90%;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  h4 {
+    span {
+      color: black;
+    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}

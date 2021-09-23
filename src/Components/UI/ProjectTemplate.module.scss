@@ -1,0 +1,104 @@
+.projectContainer {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-image: linear-gradient(rgb(255, 189, 8), white);
+  box-shadow: 0 1px 10px grey;
+  position: relative;
+
+  h1 {
+    font-family: "Gluten", sans-serif;
+    color: white;
+    text-shadow: 0 0 8px black;
+    margin-bottom: 50px;
+
+    span {
+      color: rgb(255, 153, 0);
+    }
+    font-size: 50px;
+    font-weight: bold;
+    text-align: center;
+    margin: 20px;
+  }
+
+  p {
+    font-family: "ABeeZee", sans-serif;
+    margin: 30px auto;
+    width: 40%;
+    color: white;
+    text-shadow: 0 0 8px black;
+    transition: all 0.3s ease-in-out;
+  }
+  img {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 0;
+    left: 0;
+    -webkit-mask-image: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(0, 0, 0, 0.8)),
+      to(rgba(0, 0, 0, 0))
+    );
+    mask-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0.8),
+      rgba(0, 0, 0, 0)
+    );
+    z-index: 0;
+    filter: blur(5px);
+  }
+
+  .alinks {
+    display: flex;
+    a {
+      text-align: center;
+      text-decoration: none;
+      font-size: 23px;
+      font-family: "Gluten", sans-serif;
+      width: 250px;
+      display: block;
+      border-radius: 5px;
+      margin: 10px;
+      padding: 20px;
+      color: white;
+      background-color: rgb(247, 177, 72);
+      transition: all 0.2s ease-in-out;
+      &:hover {
+        transform: scale(1.1);
+        cursor: pointer;
+        background-color: rgb(255, 153, 0);
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .projectContainer {
+    height: 100vh;
+    h1 {
+      margin: 0;
+      width: 90%;
+    }
+
+    p {
+      height: 300px;
+      overflow-y: scroll;
+      width: 80%;
+    }
+    .alinks {
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      a {
+        width: 100%;
+        font-size: 18px;
+      }
+    }
+  }
+}
