@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.6d7d6766.chunk.css",
-    "main.js": "/portfolio/static/js/main.97940b98.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.97940b98.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.42cbd564.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.42cbd564.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.1651fa9f.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.1651fa9f.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -16,6 +16,7 @@
     "static/media/Quotes-img-3.b2a67936.png": "/portfolio/static/media/Quotes-img-3.b2a67936.png",
     "static/media/calculator-img.5ee9dc07.png": "/portfolio/static/media/calculator-img.5ee9dc07.png",
     "static/media/countdown-img.b6604d8c.png": "/portfolio/static/media/countdown-img.b6604d8c.png",
+    "static/media/mgs-img.f873b4a7.png": "/portfolio/static/media/mgs-img.f873b4a7.png",
     "static/media/portfolio-img.9d520ac1.png": "/portfolio/static/media/portfolio-img.9d520ac1.png",
     "static/media/talktokanye-img.1d7bdde7.png": "/portfolio/static/media/talktokanye-img.1d7bdde7.png"
   },
@@ -24,6 +25,6 @@
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.3152dcff.chunk.js",
     "static/css/main.6d7d6766.chunk.css",
-    "static/js/main.97940b98.chunk.js"
+    "static/js/main.42cbd564.chunk.js"
   ]
 }
