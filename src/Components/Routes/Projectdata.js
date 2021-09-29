@@ -4,8 +4,18 @@ import talktokanye from "../../Images/talktokanye-img.png";
 import FoodStore from "../../Images/FoodStore-img.png";
 import Quotes from "../../Images/Quotes-img-3.png";
 import portefolio from "../../Images/portfolio-img.png";
-
+import mgs from "../../Images/mgs-img.png";
 export const projectdata = [
+  {
+    Title: "MGS landing page",
+    color: "white",
+    img: mgs,
+    pAnimation: "fade-left",
+    description:
+      "This is a redesign of one of my school's organization website landing page I have made using React.js with React-router, and some react frameworkfor the animations,and Sass. ",
+    repoLink: "https://github.com/JanGabrielqqq/MapuaGamingSociety/tree/master",
+    projectLink: "https://jangabrielqqq.github.io/MapuaGamingSociety/",
+  },
   {
     Title: "Calculator",
     color: "black",
