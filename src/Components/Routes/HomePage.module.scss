@@ -1,12 +1,11 @@
 .HomePageContainer {
   height: 90vh;
-  width: 100vw;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
   background-color: rgb(255, 189, 8);
-  // scroll-snap-align: start;
 }
 
 .circle {
@@ -16,10 +15,6 @@
   width: 10px;
   animation: fadeInRandom 0.5s forwards;
   transition: all 10s forwards;
-
-  // &:hover {
-  //   transform: scale(1.1);
-  // }
 }
 .Text {
   color: white;
@@ -31,7 +26,6 @@
     -webkit-box-reflect: below 1px linear-gradient(transparent, #0008);
     line-height: 0.7em;
     width: 18vw;
-    // text-shadow: 0 0 10px white;
     position: absolute;
     top: -20px;
     left: -10px;
@@ -71,7 +65,7 @@
 
 @media (max-width: 500px) {
   .HomePageContainer {
-    width: 100vw;
+    width: 100%;
     overflow-x: hidden;
   }
   .Text {
