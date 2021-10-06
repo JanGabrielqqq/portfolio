@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.4acccdab.chunk.css",
-    "main.js": "/portfolio/static/js/main.c1c37674.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.c1c37674.chunk.js.map",
+    "main.js": "/portfolio/static/js/main.b409a35a.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.b409a35a.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.1651fa9f.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.1651fa9f.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -12,19 +12,19 @@
     "static/css/2.7fc9bc2b.chunk.css.map": "/portfolio/static/css/2.7fc9bc2b.chunk.css.map",
     "static/css/main.4acccdab.chunk.css.map": "/portfolio/static/css/main.4acccdab.chunk.css.map",
     "static/js/2.3152dcff.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3152dcff.chunk.js.LICENSE.txt",
-    "static/media/FoodStore-img.ed60e549.png": "/portfolio/static/media/FoodStore-img.ed60e549.png",
-    "static/media/Quotes-img-3.b2a67936.png": "/portfolio/static/media/Quotes-img-3.b2a67936.png",
-    "static/media/calculator-img.5ee9dc07.png": "/portfolio/static/media/calculator-img.5ee9dc07.png",
-    "static/media/countdown-img.b6604d8c.png": "/portfolio/static/media/countdown-img.b6604d8c.png",
-    "static/media/mgs-img.f873b4a7.png": "/portfolio/static/media/mgs-img.f873b4a7.png",
-    "static/media/portfolio-img.9d520ac1.png": "/portfolio/static/media/portfolio-img.9d520ac1.png",
-    "static/media/talktokanye-img.1d7bdde7.png": "/portfolio/static/media/talktokanye-img.1d7bdde7.png"
+    "static/media/FoodStore-img.2057d448.jpg": "/portfolio/static/media/FoodStore-img.2057d448.jpg",
+    "static/media/Quotes-img-3.b8fbedc2.jpg": "/portfolio/static/media/Quotes-img-3.b8fbedc2.jpg",
+    "static/media/calculator-img.3d0714f2.jpg": "/portfolio/static/media/calculator-img.3d0714f2.jpg",
+    "static/media/countdown-img.66a4d449.jpg": "/portfolio/static/media/countdown-img.66a4d449.jpg",
+    "static/media/mgs-img.e13e0e4d.jpg": "/portfolio/static/media/mgs-img.e13e0e4d.jpg",
+    "static/media/portfolio-img.385afd62.jpg": "/portfolio/static/media/portfolio-img.385afd62.jpg",
+    "static/media/talktokanye-img.060db173.jpg": "/portfolio/static/media/talktokanye-img.060db173.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.1651fa9f.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.3152dcff.chunk.js",
     "static/css/main.4acccdab.chunk.css",
-    "static/js/main.c1c37674.chunk.js"
+    "static/js/main.b409a35a.chunk.js"
   ]
 }
