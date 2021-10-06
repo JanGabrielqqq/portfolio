@@ -1,10 +1,10 @@
-import calculator from "../../Images/calculator-img.png";
-import countdown from "../../Images/countdown-img.png";
-import talktokanye from "../../Images/talktokanye-img.png";
-import FoodStore from "../../Images/FoodStore-img.png";
-import Quotes from "../../Images/Quotes-img-3.png";
-import portefolio from "../../Images/portfolio-img.png";
-import mgs from "../../Images/mgs-img.png";
+import calculator from "../../Images/calculator-img.jpg";
+import countdown from "../../Images/countdown-img.jpg";
+import talktokanye from "../../Images/talktokanye-img.jpg";
+import FoodStore from "../../Images/FoodStore-img.jpg";
+import Quotes from "../../Images/Quotes-img-3.jpg";
+import portefolio from "../../Images/portfolio-img.jpg";
+import mgs from "../../Images/mgs-img.jpg";
 export const projectdata = [
   {
     Title: "MGS landing page",

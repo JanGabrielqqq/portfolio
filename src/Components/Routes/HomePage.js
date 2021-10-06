@@ -23,8 +23,8 @@ const HomePage = React.forwardRef((props, ref) => {
   const ctx = useContext(Context);
 
   useEffect(() => {
-    setTimeout(ctx.afterAnimationHandler, 2000);
-    setTimeout(ctx.afterAnimationHomePageHandler, 8000);
+    setTimeout(ctx.afterAnimationHandler, 1000);
+    setTimeout(ctx.afterAnimationHomePageHandler, 5000);
   }, [ctx.afterAnimationHandler, ctx.afterAnimationHomePageHandler]);
 
   const [mouseY, setMouseY] = useState(0);
