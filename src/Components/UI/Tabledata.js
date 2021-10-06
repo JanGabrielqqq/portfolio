@@ -29,14 +29,14 @@ export const Tabledata = [
   },
   {
     skill: "Node.js",
-    percent: 20,
+    percent: 40,
   },
   {
     skill: "REST",
-    percent: 60,
+    percent: 75,
   },
   {
     skill: "SQL",
-    percent: 10,
+    percent: 50,
   },
 ];

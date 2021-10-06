@@ -3,14 +3,14 @@ import { Context } from "../../Store/Context/Context";
 import styles from "./HomePage.module.scss";
 
 const circleArray = [];
-for (var i = 0; i < 40; i++) {
+for (var i = 0; i < 45; i++) {
   circleArray.push({
-    diameter: Math.floor(Math.random() * 40 + 10),
-    color: `rgb(${Math.random() * 115 + 140},${Math.random() * 115 + 140},${
-      Math.random() * 115 + 140
-    })`,
-    opacity: Math.random() * 0.2 + 0.4,
-    top: (Math.random() * 570 + 570 + 570 / 2) / 4,
+    diameter: Math.floor(Math.random() * 60 + 10),
+    // color: `rgb(${Math.random() * 115 + 140},${Math.random() * 115 + 140},${
+    //   Math.random() * 115 + 140
+    // })`,
+    opacity: Math.random() * 0.9 + 0.4,
+    top: (Math.random() * 570 + 285) / 2,
     left: Math.random() * 1300,
     box: Math.random() * 2 + 3,
     mouseY: Math.random() * 200,
@@ -46,7 +46,7 @@ const HomePage = React.forwardRef((props, ref) => {
         <div className={styles.Text}>
           <h1
             style={{
-              textShadow: `0 0 ${mouseY / 100}px  white`,
+              textShadow: `0 0 ${mouseY / 20}px  black`,
               top: `${mouseY / 100}px`,
               left: `${mouseX / 300 + 80}px`,
             }}
@@ -55,7 +55,7 @@ const HomePage = React.forwardRef((props, ref) => {
           </h1>
           <h3
             style={{
-              textShadow: `0 0 ${mouseY / 100}px  white`,
+              textShadow: `0 0 ${mouseY / 100}px  black`,
               top: `${mouseY / 100 + 25}px`,
               left: `${mouseX / 300 + 145}px`,
             }}
@@ -71,11 +71,11 @@ const HomePage = React.forwardRef((props, ref) => {
           key={index}
           style={{
             animationDelay: `${data.delay}ms`,
-            height: `${data.diameter}px`,
-            width: `${data.diameter}px`,
-            backgroundColor: data.color,
+            height: `${data.diameter + (mouseY * data.opacity) / 3}px`,
+            width: `${data.diameter + (mouseY * data.opacity) / 3}px`,
+            backgroundColor: `black`,
             // opacity: data.opacity,
-            opacity: "0",
+            opacity: `${!ctx.afterAnimationHomePage ? 0 : data.opacity}`,
             top: data.top + (mouseY / 800) * data.mouseY * data.negativity,
             left: data.left + (mouseX / 200) * data.negativity,
             boxShadow: `0 0 ${data.box + (mouseX / 325) * data.negativity}px ${

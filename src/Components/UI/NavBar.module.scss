@@ -1,7 +1,7 @@
 .NavBar {
   height: 10vh;
   width: 100vw;
-  background-color: rgb(36, 36, 36);
+  background-color: rgb(255, 189, 8);
   display: flex;
   align-items: center;
   // box-shadow: 0 2px 2px 2px black;
@@ -13,13 +13,16 @@
     justify-content: space-between;
     align-items: center;
     color: white;
+    text-shadow: 0 0 5px black;
+    font-size: 25px;
     button {
       background: none;
+      text-shadow: 1px 1px 5px black;
       border: none;
       color: white;
       padding: 5px;
       margin: 10px;
-      font-weight: bold;
+      font-weight: bolder;
       &:hover {
         cursor: pointer;
       }
@@ -40,8 +43,6 @@
 }
 
 .fixed {
-  background-color: rgb(255, 189, 8);
-
   font-family: "Gluten", sans-serif;
   position: fixed;
   top: 0;

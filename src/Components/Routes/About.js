@@ -50,8 +50,8 @@ const About = React.forwardRef((props, ref) => {
         data-aos-duration='500'
         data-aos-offset='0'
       >
-        <span> Email: JanGabrielqqq@gmail.com</span>
-        <span>Contact No. +639065667304</span>
+        <span> Email: JanGabrielqqq@gmail.com</span> |
+        <span> Contact No. +63 919 835 0870</span>
       </h4>
     </div>
   );

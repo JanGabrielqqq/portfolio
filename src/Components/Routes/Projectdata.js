@@ -27,7 +27,7 @@ export const projectdata = [
     projectLink: "https://jangabrielqqq.github.io/calculator/",
   },
   {
-    Title: "Countdown | Stopwatch",
+    Title: "QuarCount",
     img: countdown,
     pAnimation: "fade-left",
     description:
