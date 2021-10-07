@@ -1,5 +1,5 @@
 import React from "react";
-import Table from "../UI/Table";
+import Skills from "../UI/Skills";
 import styles from "./About.module.scss";
 
 const About = React.forwardRef((props, ref) => {
@@ -9,7 +9,7 @@ const About = React.forwardRef((props, ref) => {
         <span>Ab</span>out <span>M</span>e
       </h1>
       <div className={styles.aboutContent}>
-        <Table />
+        <Skills />
         <div className={styles.Education}>
           <h3
             data-aos='fade-right'

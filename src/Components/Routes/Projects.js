@@ -22,7 +22,7 @@ const Projects = React.forwardRef((props, ref) => {
   };
   const imgMouseEnter = (i) => {
     // setPicture(i.target.id);
-    setPicture(i.target.id);
+    setPicture((prev) => (prev = i.target.id));
   };
   return (
     <>

@@ -29,7 +29,7 @@
     width: 60%;
     display: flex;
 
-    // align-items: center;
+    align-items: center;
     justify-content: space-around;
     .Education {
       width: 250px;
@@ -48,6 +48,7 @@
 
 @media (max-width: 500px) {
   .about {
+    // height: 90vh;
     h1 {
       margin: 0;
     }
