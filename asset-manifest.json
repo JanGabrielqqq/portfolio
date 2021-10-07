@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.1d422380.chunk.css",
-    "main.js": "/portfolio/static/js/main.b409a35a.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b409a35a.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.4f34e042.chunk.css",
+    "main.js": "/portfolio/static/js/main.656bd42d.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.656bd42d.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.1651fa9f.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.1651fa9f.js.map",
     "static/css/2.7fc9bc2b.chunk.css": "/portfolio/static/css/2.7fc9bc2b.chunk.css",
@@ -10,10 +10,14 @@
     "static/js/2.3152dcff.chunk.js.map": "/portfolio/static/js/2.3152dcff.chunk.js.map",
     "index.html": "/portfolio/index.html",
     "static/css/2.7fc9bc2b.chunk.css.map": "/portfolio/static/css/2.7fc9bc2b.chunk.css.map",
-    "static/css/main.1d422380.chunk.css.map": "/portfolio/static/css/main.1d422380.chunk.css.map",
+    "static/css/main.4f34e042.chunk.css.map": "/portfolio/static/css/main.4f34e042.chunk.css.map",
     "static/js/2.3152dcff.chunk.js.LICENSE.txt": "/portfolio/static/js/2.3152dcff.chunk.js.LICENSE.txt",
+    "static/media/CSS.c3f42cef.jpg": "/portfolio/static/media/CSS.c3f42cef.jpg",
     "static/media/FoodStore-img.2057d448.jpg": "/portfolio/static/media/FoodStore-img.2057d448.jpg",
+    "static/media/HTML.e88f1e59.jpg": "/portfolio/static/media/HTML.e88f1e59.jpg",
+    "static/media/NODE.3bafad9a.jpg": "/portfolio/static/media/NODE.3bafad9a.jpg",
     "static/media/Quotes-img-3.b8fbedc2.jpg": "/portfolio/static/media/Quotes-img-3.b8fbedc2.jpg",
+    "static/media/REST.2e48d118.jpg": "/portfolio/static/media/REST.2e48d118.jpg",
     "static/media/calculator-img.3d0714f2.jpg": "/portfolio/static/media/calculator-img.3d0714f2.jpg",
     "static/media/countdown-img.66a4d449.jpg": "/portfolio/static/media/countdown-img.66a4d449.jpg",
     "static/media/mgs-img.e13e0e4d.jpg": "/portfolio/static/media/mgs-img.e13e0e4d.jpg",
@@ -24,7 +28,7 @@
     "static/js/runtime-main.1651fa9f.js",
     "static/css/2.7fc9bc2b.chunk.css",
     "static/js/2.3152dcff.chunk.js",
-    "static/css/main.1d422380.chunk.css",
-    "static/js/main.b409a35a.chunk.js"
+    "static/css/main.4f34e042.chunk.css",
+    "static/js/main.656bd42d.chunk.js"
   ]
 }
