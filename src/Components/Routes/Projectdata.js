@@ -5,7 +5,18 @@ import FoodStore from "../../Images/FoodStore-img.jpg";
 import Quotes from "../../Images/Quotes-img-3.jpg";
 import portefolio from "../../Images/portfolio-img.jpg";
 import mgs from "../../Images/mgs-img.jpg";
+import bacarat from "../../Images/bacarat-img.jpg";
+
 export const projectdata = [
+  {
+    Title: "Bacarat",
+    color: "black",
+    pAnimation: "fade-right",
+    img: bacarat,
+    description: "This project is from my coding interview on Whiterain DTI (November 12, 2021). Only with simple logic of bacarat. Stack used: React FC, Redux. Redux TK.",
+    repoLink: "https://github.com/JanGabrielqqq/Baccarat",
+    projectLink: " https://jangabrielqqq.github.io/Baccarat/"
+  },
   {
     Title: "MGS landing page",
     color: "white",
